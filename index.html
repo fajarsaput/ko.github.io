@@ -8,14 +8,14 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark/dark.css" />
   <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
-  <link href="https://kuisberhadiah.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
 
   <head> </head>
 
   <body>
     <style>
       body {
-        background-image: url("https://i.postimg.cc/xdqRhcJk/Whats-App-Image-2022-09-28-at-17-36-45.jpg");
+        background-image: url("https://i.postimg.cc/xd1sxxpz/5.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100% 100%;
       }
@@ -29,7 +29,8 @@
 
       <p class="catatan" id="koteks">
         <marquee scrollamount="8" id="marq"
-          ><i id="spasi"></i> Yeay yang udah tua :v<i id="spasi"></i> Baru aja masuk kuliah udah makin tua aja &#128511;<i id="spasi"></i> Candaa candaa :v<i id="spasi"></i> HBD yaa kawan dari Fajar&#129395;&#129395;&#129395;</marquee
+          ><i id="spasi"></i> Yeay yang udah tua, tapi masih jadi beban :v<i id="spasi"></i> Baru aja masuk kuliah udah makin tua aja &#128511;<i id="spasi"></i> Candaa candaa :v<i id="spasi"></i> HBD yaa rera from
+          putro&#129395;&#129395;&#129395;</marquee
         >
       </p>
 
@@ -71,7 +72,7 @@
       });
       async function mulai() {
         var { value: nama } = await swals.fire({
-          title: "Halo Pita, isi nama kamu yah hehe",
+          title: "Halo Rera, isi nama lengkap kamu ya",
           input: "text",
           confirmButtonText: "Lanjut",
           showCancelButton: false,
@@ -170,7 +171,7 @@
           }
           //Selingan
         } else {
-          await swals.fire("Yeayy!", "Kalo kamu pilih <b>Pacar</b> berarti kamu sedang membutuhkan pasangan &#129315;!");
+          await swals.fire("Yeayy!", "Kalo kamu pilih <b>Pacar</b> semoga cepat dapat yah &#129315;!");
           var { isConfirmed: warna2 } = await swals.fire({
             title: nama + " yakin pilih Pacar?",
             text: "Atau mau ganti aja nih?",
