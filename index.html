@@ -15,7 +15,7 @@
   <body>
     <style>
       body {
-        background-image: url("https://i.postimg.cc/xd1sxxpz/5.jpg");
+        background-image: url("https://i.postimg.cc/Dyxb432V/Whats-App-Image-2022-10-19-at-22-00-54.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100% 100%;
       }
@@ -29,8 +29,7 @@
 
       <p class="catatan" id="koteks">
         <marquee scrollamount="8" id="marq"
-          ><i id="spasi"></i> Yeay yang udah tua, tapi masih jadi beban keluarga :v<i id="spasi"></i> Baru aja masuk kuliah udah makin tua aja &#128511;<i id="spasi"></i> Candaa candaa :v<i id="spasi"></i> HBD yaa rera from
-          putro&#129395;&#129395;&#129395;</marquee
+          ><i id="spasi"></i> Ternyata udah makin tua aja de<i id="spasi"></i> Ini ucapan dari kakamu ekek &#128511;<i id="spasi"></i> Semoga suka<i id="spasi"></i> HBD yaa ade from kaka&#129395;&#129395;&#129395;</marquee
         >
       </p>
 
@@ -72,7 +71,7 @@
       });
       async function mulai() {
         var { value: nama } = await swals.fire({
-          title: "Halo Rera, isi nama lengkap kamu ya",
+          title: "Halo de, Isi nama lengkap kamu ya",
           input: "text",
           confirmButtonText: "Lanjut",
           showCancelButton: false,
@@ -80,10 +79,11 @@
         if (nama && nama.length < 11) {
           play();
           window.nama = nama;
-          await swals.fire("Hai, " + nama + " ツ");
+          await swals.fire("Halo ade, " + nama + " ツ");
           await swals.fire("Alhamdulillah nambah tua &#128514;");
           await swals.fire("Selamat ulang tahun!");
-          await swals.fire("Panjang umur & sehat selalu rera<3");
+          await swals.fire("Panjang umur & sehat selalu octa<3");
+          await swals.fire("Dan Semoga kuliahnya lancar juga dapet seseorang yang bisa bahagian kamu");
           pilihwarna();
           //
         } else {
